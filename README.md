@@ -63,11 +63,15 @@ This Python script automates the process of logging into Twitter (now known as X
     python scrap_X.py
    ````
 3. The script will log into Twitter, search for tweets based on the specified hashtags or keywords, and save the collected tweets into an Excel file in the `Data/Testv1` directory.
+
 ---
+
 ## Configuration
+
 **Hashtags/Keywords**: Modify the hashtags_keywords list in the script to include the hashtags or keywords you want to search for.  
 **Language Filter**: Modify the language variable to filter tweets by language (e.g., " lang:en" for English).  
 **Excel File Path**: Modify the file path in the save_to_excel function call to change where the Excel file is saved.  
+
 ---
 ## Contributing
 Contributions are welcome! Please fork the repository and submit a pull request with your changes.
