@@ -68,9 +68,9 @@ This Python script automates the process of logging into Twitter (now known as X
 
 ## Configuration
 
-**Hashtags/Keywords**: Modify the hashtags_keywords list in the script to include the hashtags or keywords you want to search for.  
-**Language Filter**: Modify the language variable to filter tweets by language (e.g., " lang:en" for English).  
-**Excel File Path**: Modify the file path in the save_to_excel function call to change where the Excel file is saved.  
+- **Hashtags/Keywords**: Modify the hashtags_keywords list in the script to include the hashtags or keywords you want to search for.  
+- **Language Filter**: Modify the language variable to filter tweets by language (e.g., " lang:en" for English).  
+- **Excel File Path**: Modify the file path in the save_to_excel function call to change where the Excel file is saved.  
 
 ---
 ## Contributing
