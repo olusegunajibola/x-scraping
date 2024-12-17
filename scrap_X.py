@@ -126,10 +126,6 @@ for hashtag in hashtags_keywords:
         # Fetch tweet data
         t_data = driver.find_elements(By.XPATH, ".//div[@data-testid='tweetText']")
 
-        # (By.XPATH,
-        #                     "//div[starts-with(@class,'css-901oao r-18jsvk2 r-37j5jr r-a023e6 r-16dba41 "
-        #                     "r-rjixqe r-bcqeeo r-bnwqim r-qvutc0')]"))
-
         # Store in set
         for i in t_data:
             try:
@@ -152,8 +148,4 @@ for hashtag in hashtags_keywords:
 
         print(len(unique_texts))
         # Save the tweets to the Excel file after processing each hashtag
-    save_to_excel(list(unique_texts), "Data/Test/tweet_Dec_2024_{}.xlsx".format(hashtag))
-
-# Print the unique texts
-# for text in unique_texts:
-#     print(text)
+    save_to_excel(list(unique_texts), "Data/Testv1/tweet_Dec_2024_{}.xlsx".format(hashtag))
