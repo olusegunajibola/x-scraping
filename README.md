@@ -46,7 +46,7 @@ This Python script automates the process of logging into Twitter (now known as X
 
     use the `scrape_env.yaml` file by:
     ```python
-    conda env create -f environment.yaml
+    conda env create -f scrape_env.yaml
     ```
 3. Ensure you have the Chrome WebDriver installed and added to your system PATH. You can download it from [here](https://sites.google.com/a/chromium.org/chromedriver/).
 ---
