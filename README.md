@@ -2,6 +2,8 @@
 
 This Python script automates the process of logging into Twitter (now known as X), searching for tweets based on specific hashtags or keywords, and saving the collected tweets into an Excel file.
 
+Demo: https://youtu.be/N7IUD_E6O_E
+
 ---
 
 ## Table of Contents
